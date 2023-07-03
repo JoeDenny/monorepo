@@ -1,0 +1,19 @@
+{
+  "name": "yarn-monorepo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "devJoe": "yarn --cwd apps/joesapp dev",
+    "devSam": "yarn --cwd apps/samsapp dev",
+    "dev": "npm-run-all --parallel devJoe devSam"
+  },
+  "devDependencies": {
+    "npm-run-all": "^4.1.5"
+  }
+}

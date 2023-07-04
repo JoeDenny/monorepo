@@ -12,7 +12,7 @@ export default function Home() {
       <h1>Sam&apos;s App</h1>
       <h2 className={styles.title}>Welcome to {siteInfo.title}</h2>
       <Button text="Click me Sam" />
-      <p className={styles.description}>{siteInfo.subtitle}</p>
+      <p className={styles.description}>{siteInfo.subtitle} new change</p>
     </main>
   );
 }

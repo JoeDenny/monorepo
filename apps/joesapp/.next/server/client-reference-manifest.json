@@ -221,14 +221,6 @@
     }
   },
   "entryCSSFiles": {
-    "/Users/joydunee/sites/yarn-monorepo/apps/joesapp/app/page": {
-      "modules": [
-        "/Users/joydunee/sites/yarn-monorepo/apps/joesapp/app/page.module.css"
-      ],
-      "files": [
-        "static/css/app/page.css"
-      ]
-    },
     "/Users/joydunee/sites/yarn-monorepo/apps/joesapp/app/layout": {
       "modules": [
         "/Users/joydunee/sites/yarn-monorepo/apps/joesapp/app/globals.css",
@@ -236,6 +228,14 @@
       ],
       "files": [
         "static/css/app/layout.css"
+      ]
+    },
+    "/Users/joydunee/sites/yarn-monorepo/apps/joesapp/app/page": {
+      "modules": [
+        "/Users/joydunee/sites/yarn-monorepo/apps/joesapp/app/page.module.css"
+      ],
+      "files": [
+        "static/css/app/page.css"
       ]
     }
   }
